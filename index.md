@@ -1,118 +1,41 @@
 ---
-lang: en-GB
+lang: es-ES
 toc: true
 ---
-# Fixing IHaskell-Widgets
-<figure class="video_container">
-  <video autoplay loop muted playsinline poster="{{site.baseurl}}/assets/demos/bincounter.gif">
-    <source src="{{site.baseurl}}/assets/demos/bincounter.webm" type="video/webm">
-    <source src="{{site.baseurl}}/assets/demos/bincounter.mp4" type="video/mp4">
-    Sorry, your video does not support the video tag
-  </video>
-</figure>
 
-## Show me the code!
-The main PR with almost all the commits is [#1242: Updating IHaskell-widgets](https://github.com/gibiansky/IHaskell/pull/1242),
-but you can find every PR I have made to the project before finishing GSoC [clicking here](https://github.com/gibiansky/IHaskell/pulls?q=is%3Apr+author%3Adaviddavo+created%3A%3C2021-08-23+).
+# David Davó Laviña
 
-## I want to use it
-You can test and play a bit with it and run the sample notebooks using this [binder link]({{site.binder.binder_url}}). Warning: it may take a while to load.
+Antiguo estudiante de la Facultad de Informática de la Universidad Complutense de Madrid. Actualmente soy Ayudante de Investigación en
+[GRASIA UCM](https://grasia.fdi.ucm.es), y entusiasta de la historia de la informática.
 
-I strongly recommend you to start with the *Introduction to Widgets* notebook,
-and then go try the other ones.
+## Material adiccional
 
-If you want to install it on your local machine, you can follow the installation guide at the project's [README](https://github.com/gibiansky/IHaskell#readme).
+Descarga las diapositivas [aquí]({{site.baseurl}}/assets/slides.pdf)
 
-## Technical difficulties
-Here I'll explain some solved and unsolved problems that I stumbled upon while working on the project
+> ¿Dudas? ¿Quieres que imparta la charla en otro sitio? Escríbeme por correo a [ddavo@ucm.es](mailto:david@ddavo.me)
 
-### The message specification
-The purpose of this GSoC was to fix ihaskell-widgets, which wasn't working properly
-because the widget messaging specification changed A LOT.
+## Bibliografía
 
-I had to navigate through lots of resources and do some "reverse engineering" using
-network inspection tools (tcpdump).
+## Otras recomendaciones
 
-Some of these resources have been compiled to [MsgSpec.md](https://github.com/gibiansky/IHaskell/blob/master/ihaskell-display/ihaskell-widgets/MsgSpec.md)
+### Libros
 
-### The incredible world of dependent types
-This library was written using the concept of *dependent types*. These are types whose
-definition depends on a value. In IHaskell-widgets, using dependent types allows
-checking properties of the widgets at compile time, using the powerful Haskell's
-type system.
+### Películas
 
-For example, in IHaskell-widgets, the type of a widget consists of an *array of fields*. Then we can check in `setField` if the field that we want to set is among the array of fields of the widget **at compile time**!
+## Lipsum
 
-But Haskell doesn't support dependent types (yet), so we use the next best thing: a pattern called `Singleton` that introduces *reflection* and *reification* and allows us to get types that depend
-on values at runtime.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus, ligula ac blandit ullamcorper, tortor sem pretium justo, vitae dignissim augue libero et justo. Cras lacinia ullamcorper elit et consectetur. Curabitur finibus, purus ut rutrum suscipit, enim nibh laoreet mi, et fringilla eros justo non massa. Nulla facilisi. Mauris scelerisque risus at tempor rutrum. Proin ac arcu consectetur, pretium libero a, congue augue. Nullam nulla arcu, porttitor in leo quis, feugiat commodo nunc. Sed viverra metus at odio gravida cursus et et nulla. Nam luctus et nibh et molestie. Proin metus leo, convallis id hendrerit a, facilisis at felis. Phasellus aliquet interdum venenatis. Integer luctus, nisl eget convallis mollis, quam quam vulputate nunc, vel fringilla ligula arcu non nibh.
 
-This was the most complex library I've had to learn to use, and it took me a lot of reading blogs and papers. If you want to learn more you can find more info here:
-- [Dependent types](https://wiki.haskell.org/Dependent_type) on Haskell Wiki
-- [Dependently Typed programming with singletons](https://www.researchgate.net/publication/254464156_Dependently_Typed_programming_with_singletons). Richard A. Eisenberg et Al. 2012.
-- [Introduction to Singletons](https://blog.jle.im/entry/introduction-to-singletons-1.html) by Justing Le
-- [Singletons](https://hackage.haskell.org/package/singletons) library
+Integer ac mi velit. Pellentesque congue, justo nec efficitur accumsan, magna mauris consequat sapien, nec scelerisque velit nisl nec arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris lorem nisi, porttitor eu dignissim sit amet, hendrerit sed eros. Aenean sit amet volutpat elit. Suspendisse potenti. Proin bibendum augue non quam cursus hendrerit. Ut rutrum, urna eu mollis convallis, sem nisi malesuada augue, eu condimentum massa elit id enim. Cras imperdiet et magna et tristique. Quisque volutpat diam quis porttitor sagittis. Morbi id mi ante. Cras ornare lacinia magna, ut sagittis magna pellentesque viverra. Nullam cursus eget odio in eleifend.
 
-### Capturing the output with the Output Widget
-In Python, we are able to capture the output of any function using the `Output` widget.
+Phasellus eu efficitur metus, vestibulum varius risus. Vivamus malesuada sapien metus, in convallis leo aliquet sit amet. Maecenas euismod, risus a porttitor fringilla, erat leo bibendum mauris, id suscipit ex dolor sit amet enim. Proin quis facilisis orci, id finibus lacus. Proin molestie volutpat lacinia. Curabitur aliquet volutpat viverra. Donec consequat iaculis venenatis. Morbi eu lorem quis odio ornare aliquam sed non ligula. Praesent at lorem mauris. Quisque laoreet, neque ac sodales ullamcorper, lorem nunc euismod tellus, ut euismod lacus ex sed libero. Fusce eleifend mattis neque posuere cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
-The output generated from the following lines would be captured and displayed wherever
-the `Output` widget has been displayed.
+Proin viverra ligula sit amet congue sollicitudin. Aliquam consectetur justo vitae sollicitudin convallis. Nulla eu eros non ligula dictum vestibulum ac et sapien. Nullam mi magna, dapibus auctor pulvinar at, cursus eu dolor. Ut magna lacus, placerat sit amet accumsan ac, fermentum eget ipsum. Donec at placerat elit. Etiam a ligula interdum, aliquam metus nec, rutrum nisi. Sed felis sem, tincidunt ut orci malesuada, lacinia auctor massa. Vivamus nulla tortor, hendrerit ac nulla at, tempus pharetra quam.
 
-```python
-with out:
-  display(YouTubeVideo("dQw4w9WgXcQ"))
-  for int i in range(10):
-    print(i, "Hello World!")
-```
+Nulla facilisi. Aenean eget nunc magna. In vitae porttitor erat, nec porttitor purus. Vivamus a libero suscipit nulla mollis volutpat in id elit. Suspendisse convallis aliquet consectetur. Praesent ut convallis nulla, a placerat dui. Sed id porttitor odio, commodo ornare sem. Nullam ac porttitor justo. In dignissim pharetra maximus. Ut bibendum dictum tortor a maximus. Suspendisse elementum massa interdum egestas aliquam. Aenean volutpat dignissim purus, nec rhoncus nisi tristique eu.
 
-What this code does is that it changes the `msg_id` attribute to the msg_id of the `execution_request`. For this to be possible, the output widget has to somehow access parts of the
-*Kernel state* to obtain that `msg_id`.
+## Agradecimientos
 
-Now, what about implementing it in Haskell? We could do a simple interface with a custom monad. Or with a function that executes a function while capturing the output, like this:
-```haskell
-capture :: OutputWidget -> IO () -> IO ()
-capture o f = do
-  startCapturing o
-  f
-  endCapturing o
-  where startCapturing = setField o MsgID ???
-        endCapturing = setField o MsgID ""
-```
+Al personal de la Biblioteca de la Facultad de Informática y a su gran selección
+de libros. Además, suelen hacer caso con las desideratas.
 
-Now, what's the problem? Haskell is a functional language without side effects, so it's a bit
-more difficult than just accessing the `msg_id`... In conclusion, we have two options:
-- Passing the `msg_id` *from here to there* as a parameter in the `comm` function of the widget (or any other function that is called between the `execution_request` and the capturing)
-- Having a `getExReqMsgId :: IO String` function that accesses an `IORef` of the kernel state and
-gets us the message ID.
-
-I think the latest is a bit dirtier, but easier to read.
-
-### Making the Controller Widget work
-The controller widget is created with empty arrays of Buttons and Axes. When a controller
-is connected and configured, it passes via `comm` its new attributes such as its name, mapping, etc. (like every widget modifiable by the frontend does). It also passes an array of Buttons and Axes widgets IDs. The problem is where do these IDs come from. Do we have to create widgets with these IDs?
-Are these widgets already created and on the kernel state? How do we access the kernel state?
-
-We end with a problem similar to "getting the execution request msg_id", because we have to
-access the kernel state, and get a widget given it's ID... So we either pass some part of the kernel
-state in the `comm` function, or we create an `getAxis :: String -> IO ControllerAxis` function.
-
-## Things to do
-
-If you want to continue or contribute to this project, here are some things that
-are still to be done as of today, 16th of August 2021. Some of them have been discussed at [Technical difficulties](#technical-difficulties)
-
-- [ ] Adding **unit testing**
-- [ ] Adding integration testing using **visual regression**
-- [ ] Make the output widget **capture output**
-- [ ] Make the layout widgets more "Haskellian" using *dependent types* instead of strings
-- [ ] Create a serializable `Color` data type instead of using strings. (Or using one from an external library)
-- [ ] Overloading `setField` so it can be used with wrapper types without using the data constructor every time
-  - E.g: `setField w Index 3` should just work instead of having to use `setField w Index $ Just 3`
-- [ ] Adding some **utilities functions**
-  - Creating a media widget given a filename
-  - Getting the selected label from a selection widget (instead of the value)
-- [ ] Improve the backend's **validation of attributes**.
-  - E.g: Now you're able to set an IntValue out of bounds in a Slider
-- [ ] **Optimizing ihaskell-widgets**. Currently, there is an update message sent for
-every `setField` done, while ipython sends a final update message when all changes
-have been made.

@@ -18,21 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: David Davó's GSoC '21 Report
+title: Historia del Hacking
 email: david@ddavo.me
 fullname: David Davó Laviña
 personal_site: https://ddavo.me/en
 description: >- # this means to ignore newlines until "baseurl:"
-  This is David Davó's work product submission for Google Summer of Code 2021
-  working with IHaskell fixing the widgets library.
+  Contenido adiccional para la charla de Historia del Hacking impartida
+  por David Davó en la Cryptoparty 2022 durante la Semana de la Ciencia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: DSinapellido
 github_username:  daviddavo
-logo: assets/jupyter-haskell.png
+logo: assets/breve-historia-del-hacking.png
 github:
-  repository_nwo: gibiansky/ihaskell
-  repository_url: https://github.com/gibiansky/IHaskell/tree/master/ihaskell-display/ihaskell-widgets
+  repository_nwo: daviddavo/historia-del-hacking
+  repository_url: https://github.com/daviddavo/historia-del-hacking
 
 binder:
   binder_url: https://mybinder.org/v2/gh/daviddavo/gsoc21/binder
@@ -44,7 +44,8 @@ gsoc:
   project_url: https://summerofcode.withgoogle.com/projects/#5497023849037824
 
 # Build settings
-show_downloads: true
+show_downloads: false
+show_slides: true
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-toc
