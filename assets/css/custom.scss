@@ -32,6 +32,12 @@ body {
   }
 }
 
+header {
+  & .btn {
+    display: block;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: underline;
