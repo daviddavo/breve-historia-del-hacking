@@ -25,7 +25,7 @@ personal_site: https://ddavo.me/en
 description: >- # this means to ignore newlines until "baseurl:"
   Contenido adiccional para la charla de Historia del Hacking impartida
   por David Davó en la Cryptoparty 2022 durante la Semana de la Ciencia
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "breve-historia-del-hacking" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: DSinapellido
 github_username:  daviddavo
