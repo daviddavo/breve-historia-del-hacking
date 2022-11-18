@@ -34,6 +34,9 @@ Ordenadas cronológicamente.
 
 #### No ficción
 
+- Shinomura, Tsutomu. _Takedown: The Pursuit and Capture of Kevin Mitnick, America's Most Wanted Computer Outlaw - By the Man Who Did It_; Mass Market, 1996. 978-0786889136
+> El otro punto de vista de _Ghost in The Wires_.
+
 - Kidder, Tracy. _The Soul of a New Machine_; Little Brown Company, 1981. 978-0-316-49170-9
 > Un libro sobre gente real trabajando en un computador real en una empresa real
   - Disponible en [Biblioteca Facultad de Informática UCM](https://ucm.on.worldcat.org/oclc/7551785)
