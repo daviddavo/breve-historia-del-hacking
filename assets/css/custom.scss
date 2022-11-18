@@ -48,13 +48,18 @@ strong {
 }
 
 ul {
+  list-style-type: "— ";
+
+  & ul {
     margin: 0;
-    list-style-type: "— ";
+  }
 }
 
 section {
-  & li + li, & li > blockquote + ul {
-    margin-top: -1rem;
+  & li {
+    & p {
+      margin: 0;
+    }
   }
 }
 

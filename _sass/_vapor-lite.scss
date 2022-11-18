@@ -109,3 +109,10 @@ h1, h2, h3, h4, h5, h6 {
     --bs-btn-disabled-border-color: #6f42c1;
     --bs-gradient: none;
 }
+
+blockquote {
+  color: $green;
+  @include text-shadow($green);
+
+  border-left-color: $green;
+}
