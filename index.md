@@ -18,13 +18,16 @@ Descarga las diapositivas [aquí]({{site.baseurl}}/assets/slides.pdf)
 
 Ordenado por orden de aparición en las diapositivas
 
-- [ ] TODO: Falta meter los artículos, webs, y también los sitios de donde he sacau las fotos
+A no ser que se indique lo contrario, las fotografías son de Wikipedia y Wikimedia.
 
+- Marks, Paul. _Dot-dash-diss: The gentleman hacker's 1903 lulz._. In New Scientist, 2011. [Online](https://www.newscientist.com/article/mg21228440-700-dot-dash-diss-the-gentleman-hackers-1903-lulz/).
+- Lockstone, Keith. _The Influence of ULTRA in the Second World War_; [Website](https://www.cix.co.uk/~klockstone/index.html). 
+- [Cambridge Online Dictionary](https://dictionary.cambridge.org). 
 - Levy, Steven. _Hackers: Heroes of the computer revolution_; O'Reilly, 2010 (Original 1984). 9781449388393.
   - Disponible en [Biblioteca Facultad de Informática UCM](https://ucm.on.worldcat.org/oclc/1085767893)
+- Levy, Steven. _The Tech Model Railroad Club_; In Wired, 2014.
 - Mitnick, Kevin. _Ghost in the Wires: My Adventures as the World's Most Wanted Hacker_; 
   - Disponible en [Biblioteca Facultad de Informática UCM](https://ucm.on.worldcat.org/oclc/1103710098)
-- [Cambridge Online Dictionary](https://dictionary.cambridge.org). 
 
 ## Otras recomendaciones
 
