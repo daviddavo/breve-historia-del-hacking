@@ -25,7 +25,8 @@ A no ser que se indique lo contrario, las fotografías son de Wikipedia y Wikime
 - [Cambridge Online Dictionary](https://dictionary.cambridge.org). 
 - Levy, Steven. _Hackers: Heroes of the computer revolution_; O'Reilly, 2010 (Original 1984). 9781449388393.
   - Disponible en [Biblioteca Facultad de Informática UCM](https://ucm.on.worldcat.org/oclc/1085767893)
-- Levy, Steven. _The Tech Model Railroad Club_; In Wired, 2014.
+- Levy, Steven. _The Tech Model Railroad Club_; In Wired, 2014. [Online](https://www.wired.com/2014/11/the-tech-model-railroad-club/)
+- Long, Tony. _Feb. 15, 1995: Mitnick Arrested_; In Wired, 2012. [Online](https://www.wired.com/2012/02/feb-15-1995-mitnick-arrested/)
 - Mitnick, Kevin. _Ghost in the Wires: My Adventures as the World's Most Wanted Hacker_; 
   - Disponible en [Biblioteca Facultad de Informática UCM](https://ucm.on.worldcat.org/oclc/1103710098)
 
