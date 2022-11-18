@@ -18,6 +18,8 @@ Descarga las diapositivas [aquí]({{site.baseurl}}/assets/slides.pdf)
 
 Ordenado por orden de aparición en las diapositivas
 
+- [ ] TODO: Falta meter los artículos, webs, y también los sitios de donde he sacau las fotos
+
 - Levy, Steven. _Hackers: Heroes of the computer revolution_; O'Reilly, 2010 (Original 1984). 9781449388393.
   - Disponible en [Biblioteca Facultad de Informática UCM](https://ucm.on.worldcat.org/oclc/1085767893)
 - Mitnick, Kevin. _Ghost in the Wires: My Adventures as the World's Most Wanted Hacker_; 
