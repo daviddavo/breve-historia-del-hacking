@@ -84,6 +84,15 @@ Ordenadas cronológicamente.
 - _The Matrix_ (1999). The Wachowskis.
 > Acertaron en que el año 2000 era el último año bueno de la humanidad. Sintetiza y conforma toda la estética hacker dosmilera.
 
+- _Kung Fury_ (2015). David Samberg.
+> Un cortometraje parodia de las pelis de acción ochenteras. Incluye un tutorial de como **hackear** el tiempo y canción de **David Hasselhoff**
+> 
+> <div class="yt-container">
+> <iframe src="https://www.youtube.com/embed/KEkrWRHCDQU" title="HACKERMAN'S HACKING TUTORIALS - How To Hack Time" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> </div>
+>
+> Dicen que me parezco a [Hackerman](https://youtu.be/KEkrWRHCDQU)
+
 #### Series de TV
 - _The IT Crowd_ (2006). Channel 4.
 > La verdadera sitcom **de frikis para frikis**
